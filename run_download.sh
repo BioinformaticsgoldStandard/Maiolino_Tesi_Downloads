@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-IMAGE="tesi_download_datasets:latest"
+IMAGE="ghcr.io/bioinformaticsgoldstandard/maiolino_tesi_downloads:latest"
 
 if ! command -v docker >/dev/null 2>&1; then
     echo "Error: Docker is not installed or is not in PATH." >&2
